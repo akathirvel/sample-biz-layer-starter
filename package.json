@@ -11,7 +11,8 @@
         "build": "npm run build-ts && npm run lint",
         "serve": "node dist/src/bin/index.js",
         "copy-assets": "ts-node copy-assets.ts",
-        "test": "jest ./test"
+        "test": "jest ./test",
+        "cloud-run-dev":"npm run build:prod && npm run serve"
     },
     "dependencies": {
         "@sunriseupc/nodejs-common": "^1.0.7",
