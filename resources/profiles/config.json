@@ -1,0 +1,17 @@
+{
+    "logging": {
+        "fileName": "server.log",
+        "level": "info",
+        "maxLogSize": 10485760,
+        "backups": 5
+    },
+    "server-config": {
+        "T01":"https://reqres.in/api/",
+        "T02":"https://t02-api.sunrise.ch/api/",
+        "T03":"https://t03-api.sunrise.ch/api/",
+        "T04":"https://t04-api.sunrise.ch/api/",
+        "T05":"https://t05-api.sunrise.ch/api/",
+        "mock":"D:/work/ProjectDoc/Code/Sunrise/samplecode/mock/",
+        "default":"https://reqres.in/api/"
+    }
+}
