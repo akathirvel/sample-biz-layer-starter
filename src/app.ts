@@ -17,9 +17,6 @@ if (process.env.ALLOW_URL) {
     };
     app.use(cors(options));
 }
-
-
-
 // Adding the API Configuration
 apiService.setAPIConfig(profileUtils.getConfig('server-config')) 
 
