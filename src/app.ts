@@ -9,7 +9,7 @@ const app: Application = express();
 app.use(requestLogger);
 // Add a list of allowed origins.
 // If you have more origins you would like to add, you can add them to the array below.
-// Sample Test commit 
+
 if (process.env.ALLOW_URL) {
 
     const allowedOrigins = [`${process.env.ALLOW_URL}`];
