@@ -2,8 +2,7 @@ import express, { Application } from 'express';
 import { requestLogger,profileUtils } from '@sunriseupc/nodejs-common';
 import cors from 'cors';
 import Router from './routes';
-import apiService from './lib/client/ApiService';
- 
+import apiService from './lib/client/ApiService'; 
 
 const app: Application = express(); 
 app.use(requestLogger);
